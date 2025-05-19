@@ -8,6 +8,6 @@
 </head>
 <body>
         <div id="header"><img src="./page/assets/img/DabbleHeader.png"></div>
-        <button class="mainButton" onclick="window.location.href='dabble.php'">Let's Read!</button>
+        <a href="./page/dabble.php" class="mainButton">Let's Read!</a>
 </body>
 </html>

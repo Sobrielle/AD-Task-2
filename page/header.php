@@ -7,13 +7,7 @@
     <link rel="stylesheet" href="./assets/css/dabble.css">
 </head>
 <body>
-    <div id="header"><img src="./assets/img/DabbleHeader.png"></div>
-    <nav>
-        <a href="dabble.php">Home</a>
-        <a href="dabble.php?genre=sci-fi">Sci-Fi</a>
-        <a href="dabble.php?genre=romance">Romance</a>
-        <a href="dabble.php?genre=horror">Horror</a>
-    </nav>
+        <a href="index.php" id="header"><img src="./assets/img/DabbleHeader.png"></a>
     <hr>
 
     

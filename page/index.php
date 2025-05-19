@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AD-Task-2</title>
-    <link rel="stylesheet" href="./page/assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-        <div id="header"><img src="./page/assets/img/DabbleHeader.png"></div>
-        <button class="mainButton" onclick="window.location.href='dabble.php'">Let's Read!</button>
+        <div id="header"><img src="assets/img/DabbleHeader.png"></div>
+        <a href="dabble.php" class="mainButton">Let's Read!</a>
 </body>
 </html>
