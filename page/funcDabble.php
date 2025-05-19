@@ -37,7 +37,7 @@ function filterByGenre($books, $genre){
 }
 
 function displayBook($book){
-    echo "<div class='movieCard'>";
+    echo "<div class='bookCard'>";
     echo "<h3>{$book['title']}</h3>";
     echo "<p>Year: {$book['author']}</p>";
     echo "<p>Year: {$book['genre']}</p>";
