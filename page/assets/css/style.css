@@ -4,5 +4,43 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+#header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#header img{
+    width: 50vw;
+    height: auto;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.mainButton{
+    padding: 12px 30px;
+    font-size: 20px;
+    background-color: #e2dbce;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transform: background-color 0.3s;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+    .mainButton:hover{
+        background-color: #c5b9a4;
+    }

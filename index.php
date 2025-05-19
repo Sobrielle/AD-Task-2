@@ -7,12 +7,7 @@
     <link rel="stylesheet" href="./page/assets/css/style.css">
 </head>
 <body>
-        <div id="header"><img src="./page/assets/img/DabbleHeader.png"></div>    <!-- <?php
-        
-    ?> -->
+        <div id="header"><img src="./page/assets/img/DabbleHeader.png"></div>
+        <button class="mainButton" onclick="window.location.href='dabble.php'">Let's Read!</button>
 </body>
 </html>
-
-
-
-
