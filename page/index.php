@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-        <div id="header"><img src="assets/img/DabbleHeader.png"></div>
+        <div id="header"><img src="assets/img/DabbleHeader.png" draggable="false"></div>
         <a href="dabble.php" class="mainButton">Let's Read!</a>
 </body>
 </html>

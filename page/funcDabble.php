@@ -30,11 +30,11 @@ function getBooks(){
     ];
 }
 
-function filterByGenre($books, $genre){
-    return array_filter($books, function($book) use ($genre){
-        return strtolower($book['genre']) === strtolower($genre);
-    });
-}
+// function filterByGenre($books, $genre){
+//     return array_filter($books, function($book) use ($genre){
+//         return strtolower($book['genre']) === strtolower($genre);
+//     });
+// }
 
 function displayBook($book){
     echo "<div class='bookCard'>";
